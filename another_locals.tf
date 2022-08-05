@@ -2,7 +2,7 @@ locals {
   resolved_item = var.which_item == "item_one" ? local.item_one : local.item_two
 
   item_one = {
-    attrribute_one  = true
+    attribute_one  = true
     attribute_two   = "foo"
     attribute_xyz   = "xyz"
     attribute_abc   = "hello"
@@ -10,7 +10,7 @@ locals {
   }
 
   item_two = {
-    attrribute_one  = true
+    attribute_one  = true
     attribute_two   = "foo"
     attribute_three = "bar"
   }
